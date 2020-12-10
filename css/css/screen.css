@@ -1,0 +1,73 @@
+
+
+
+ 
+
+@media (min-width: 992px){
+
+
+}
+@media (max-width: 991.98px){
+
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+.social{
+	    margin-right: 0px;
+}
+.footer-main{
+	    background: #fafafa;
+	       height: 890px;
+
+}
+.imges {
+	    text-align: center;
+}
+.copyright p{
+	text-align: center;
+}
+
+
+
+}
+
+@media(max-width:1000px){
+
+.header header .big-nav{
+    display: none;
+}
+.toggle-menue{
+    display: unset;
+}
+}
+
+@media(max-width:1200px){
+    .toggle-btn{
+        display: unset!important;
+    }
+    .main-nav{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

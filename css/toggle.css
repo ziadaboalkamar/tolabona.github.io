@@ -1,0 +1,66 @@
+
+.toggle-nav svg{
+width: 20px;
+height: 20px;
+}
+#sidebar{
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    background: #FFF;
+    right:-80%;
+    top: 0px;
+    overflow-y: auto;
+    border-left: 1px solid #00000052;
+}
+.active{
+    right: 0%!important;
+}
+#sidebar .upper-nav {
+    background-color: #1f1954;
+}
+#sidebar svg{
+    width: 35px;
+    height: 35px;
+    fill: #fff;
+    margin-top: 19px;
+}
+#sidebar .upper-nav .user-pic{
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+#sidebar .upper-nav .tasgel-login{
+    margin-top: 18px;
+    margin-bottom: 31px;
+    border: none;
+    border-radius: 20px;
+    width: 133px;
+    font-size: 12px;
+    padding-bottom: 6px;
+    /* vertical-align: middle; */
+    background: #fff;
+    color: #636363;
+}
+#sidebar ul li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+#sidebar ul li.active{
+    padding-top: 30px;
+}
+#sidebar ul li a{
+    color: #636363; 
+}
+#sidebar .sub-menu-toggle{
+    display: none;
+}
+#sidebar .sub-menu-toggle{
+    display: none;
+}
+#sidebar ul li.drop-down:hover .sub-menu-toggle{
+    display: unset;
+}
